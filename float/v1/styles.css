@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+header, aside, div, footer {
+	border: 1px solid black;
+}
+header {
+	height: 100px;
+	margin-bottom: 10px;
+}
+aside {
+	width: 28%;
+	height: 600px;
+	float: left;
+}
+div {
+	width: 70%;
+	height: 600px;
+	margin-left: 30%;
+}
+footer {
+	clear: left;
+	height: 100px;
+	margin-top: 10px;
+}

@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 1000px;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+body, .d_header, .song {
+	border: 2px solid black;
+}
+header {
+	margin-bottom: 20px;
+}
+header img {
+	float: left;
+}
+.d_header {
+	margin-left: 300px;
+	padding-right: 30px;
+}
+.d_header h1, .d_header p {
+	text-align: right;
+}
+ .d_header cite {
+ 	margin-left: 200px;
+ }
+ section {
+	padding-top: 20px;
+ }
+ .middle {
+ 	height: 260px;
+ 	margin-bottom: 30px;
+}
+ .song {
+ 	width: 600px;
+	float: left;
+	height: 260px;
+	overflow: hidden;
+ }
+
+ .middle img {
+ 	float: right;
+ }
+ .img_bottom {
+ 	height: 450px;
+ 	clear: both;
+  	background-image: url('fel.png');
+  	background-position: center;
+ 	background-size: contain;
+ 	background-repeat: no-repeat;
+ }

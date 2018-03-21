@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+}
+.gr {
+	background: green;
+	width: 400px;
+	height: 400px;
+	margin: 100px;
+	position: relative;
+}
+.or1, .or2, .or3, .or4 {
+	width: 100px;
+	height: 100px;
+	background: orange;
+	display: inline-block;
+	position: absolute;
+}
+.or1 {
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.or2 {
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.or3 {
+	right: 0;
+	top: 50%;
+	transform: translate(50%, -50%);
+}
+.or4 {
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}

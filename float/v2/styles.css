@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 1000px;
+	margin: 0 auto;
+}
+header, .sidebar1, .sidebar2, div, footer {
+	border: 1px solid black;
+}  
+header {
+	height: 100px;
+	margin-bottom: 20px;
+}
+.sidebar1 {
+	width: 25%;
+	float: left;
+	height: 600px;
+}
+.sidebar2 {
+	width: 25%;
+	float: right;
+	height: 600px;
+}
+article {
+	margin: 0 25%;
+	padding: 0 20px;
+}
+div {
+	height: 600px;
+}
+footer {
+	height: 100px;
+	clear: both;
+	margin-top: 20px;
+}
